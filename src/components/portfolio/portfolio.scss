@@ -1,0 +1,32 @@
+.img-projects{
+    height: 25vh;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: #e8e5e5;
+}
+
+.img-projects img{
+    height: 90%;
+    width: 80%;
+    margin: auto;
+}
+
+.project-con{
+    // border: 1px solid #dedede;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.project-hyperlink{
+    height: 32px;
+    width: 32px;
+    background: cornflowerblue;
+    border-radius: 50%;
+    color:#fff !important;
+}
+
+.project-hyperlink i{
+    color: #fafafa;
+}

@@ -10,10 +10,10 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   font-family: "Poppins", sans-serif;
-  
+
 }
 
-*{
+* {
   color: #4b4b4b;
 }
 
@@ -28,9 +28,12 @@ ul {
 }
 
 .main {
+  transition: 0.5s;
+  scroll-behavior: smooth;
   height: 91vh;
   overflow-y: auto;
   overflow-x: hidden;
+  background-color: #0f64fc1f;
 }
 
 .main-content {
@@ -39,12 +42,12 @@ ul {
   border-radius: 10px;
 }
 
-.header-title{
+.header-title {
   position: relative;
   height: 9vh;
 }
 
-.header-bottom{
+.header-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -54,4 +57,68 @@ ul {
   background-color: cornflowerblue;
   height: 5px;
   width: 120px;
+}
+
+.field label::before {
+  content: attr(title);
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  line-height: 10px;
+  padding: 0px 5px;
+  transition: 300ms all;
+  color: #85848E;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  background-color: #fff;
+}
+
+.field {
+  position: relative;
+  margin: 14px 0;
+  padding: 0;
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    line-height: 25px;
+    height: 40px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    background-color: #fdfeff;
+    font-size: 16px;
+    color: #222;
+    border: 1px solid rgb(168 168 168 / 59%);
+    border-radius: 6px;
+
+    &:focus {
+      outline: 0;
+      border-color: cornflowerblue;
+    }
+  }
+
+
+  textarea{
+    height: fit-content;
+    padding: 5px ;
+  }
+  
+  textarea::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+  }
+
+
+  textarea::-webkit-scrollbar-track {
+    box-shadow: none;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+
+  textarea::-webkit-scrollbar-thumb {
+    background-color: #fdfdfd !important;
+    border-radius: 2px;
+  }
 }

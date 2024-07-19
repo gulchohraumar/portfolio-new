@@ -2,10 +2,10 @@ import './about.scss';
 
 function About() {
     return (
-        <div className='row mt-5 py-4 bg-about'>
+        <div id='about' className='row mt-5 py-4 bg-about'>
 
-            <div className="row mt-3 px-5 align-items-center">
-                <div className="col-md-2 ">
+            <div className="row mt-1 px-5 align-items-center">
+                <div className="col-md-2 mt-3 ">
                     <div>
                         <h1 className='font-bold' style={{ fontSize: '90px', color: 'cornflowerblue' }}>
                             2+
@@ -20,7 +20,7 @@ function About() {
                     </div>
                 </div>
 
-                <div className="col-md-10">
+                <div className="col-md-10 mt-3">
                     <div className="col-lg-12 mb-4">
                         <h3 className='text-center px-2 font-semibold text-4xl header-title'>
                             About me

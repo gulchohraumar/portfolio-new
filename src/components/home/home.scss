@@ -27,12 +27,12 @@
 }
 
 .my-photo-con{
-    height: 320px;
+    height: 350px;
     width: 100%;
 }
 
 .my-photo-con img{
-    object-fit: cover;
-    height: 100%;
+    object-fit: fill;
+    height: 350px;
     width: 100%;
 }

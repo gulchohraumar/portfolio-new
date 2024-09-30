@@ -9,9 +9,9 @@ function Portfolio() {
         [
             {
                 imageUrl: 'denta.svg',
-                url: 'https://6698bc5e2b97e7599831c2b6--lovely-belekoy-9184af.netlify.app',
+                url: 'https://steady-pie-6fc4c8.netlify.app/',
                 name: 'Denta',
-                desc: 'Made for dentist '
+                desc: 'Made for dentists.'
             },
             {
                 imageUrl: 'seramic.png',
@@ -24,6 +24,18 @@ function Portfolio() {
                 url: 'https://thriving-youtiao-4b75d8.netlify.app/',
                 name: 'Illdy',
                 desc: 'Illdy project'
+            },
+            {
+                imageUrl: 'image2.png',
+                url: 'https://golden-llama-2195d5.netlify.app/',
+                name: '2K24 Transforming',
+                desc: 'Presentation of medicinal products.'
+            },
+            {
+                imageUrl: 'data-science.png',
+                url: 'https://marvelous-sopapillas-e79319.netlify.app/',
+                name: 'Data Prabanjam',
+                desc: 'Data Prabanjam website langing page.'
             },
             {
                 imageUrl: 'watchFilm.png',
@@ -75,7 +87,6 @@ function Portfolio() {
                 </h3>
             </div>
 
-
             <div className="mt-5 row" style={{gap: '20px 0'}}>
                 {
                     items.map((dt: any, key: number) => {
@@ -83,8 +94,7 @@ function Portfolio() {
                             <div className="project-con h-full">
                                 <div className="bg-projects">
                                     <div className="pt-2 px-2 text-end">
-                                        <a target='_blank' rel='noopener noreferrer' href={dt.url}>
-
+                                        <a title='Go to website' target='_blank' rel='noopener noreferrer' href={dt.url}>
                                             <button className='project-hyperlink' >
                                                 <i className="fa-solid fa-arrow-up-right"></i>
                                             </button>

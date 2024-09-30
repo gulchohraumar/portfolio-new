@@ -19,7 +19,10 @@ function Skills() {
         name: 'Bootstrap',
       },
       {
-        name: 'Tailwind',
+        name: 'Tailwind CSS',
+      },
+      {
+        name: 'Responsive design',
       },
       {
         name: 'TypeScript',

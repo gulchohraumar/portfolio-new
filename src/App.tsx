@@ -8,6 +8,8 @@ import Portfolio from './components/portfolio/portfolio';
 import Experience from './components/experience/experience';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 function App() {
   return (

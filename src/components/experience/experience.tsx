@@ -32,15 +32,15 @@ function Experience() {
                 ]
             },
 
-            {
-                name: 'Intern Front-End Web Developer | Algorithmics Azerbaijan',
-                imgUrl: 'algorithmics.png',
-                period: 'Feb 2022 - Jun 2022',
-                works: [
-                    { desc: "I learned basics of web developement, how we can work with front-end languages, tools,  libraries to make more efficient, reliable, safe etc products and so on." },
-                    { desc: "Developed user interface components and implemented them following well-known React.js workflows." },
-                ]
-            },
+            // {
+            //     name: 'Intern Front-End Web Developer | Algorithmics Azerbaijan',
+            //     imgUrl: 'algorithmics.png',
+            //     period: 'Feb 2022 - Jun 2022',
+            //     works: [
+            //         { desc: "I learned basics of web developement, how we can work with front-end languages, tools,  libraries to make more efficient, reliable, safe etc products and so on." },
+            //         { desc: "Developed user interface components and implemented them following well-known React.js workflows." },
+            //     ]
+            // },
         ]);
 
 
@@ -71,7 +71,7 @@ function Experience() {
 
                                 {
                                     dt.works.map((data: any, keyWorks: number) => {
-                                        return <p key={keyWorks} className="mt-2">
+                                        return <p key={keyWorks} className="mt-2 text-justify">
                                             {
                                                 data.desc
                                             }
